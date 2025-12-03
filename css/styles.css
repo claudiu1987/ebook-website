@@ -2,6 +2,24 @@
   color: var(--bs-dark);
 }
 
+.bg-sticky {
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.download {
+  background: url("../images/download-background.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.modal-dialog {
+  max-width: 1040px;
+}
+
 header {
   background: url(../images/header-background.jpg) center center no-repeat;
   background-size: cover;
